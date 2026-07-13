@@ -1,6 +1,6 @@
 """ To ask the user to enter the names of there three favourite movies and store them in a list"""
-list=[]
+movies=[]
 for i in range(1,4):
     movie=input(f"Enter your {i} favourite movie=")
-    list.append(movie)
+    movies.append(movie)
 print(list)
